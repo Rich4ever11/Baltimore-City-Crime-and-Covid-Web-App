@@ -1,0 +1,10 @@
+.leaflet-container {
+  height: 79vh;
+  width: 79vw;
+}
+
+.footer-copywrite {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
