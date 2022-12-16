@@ -4,8 +4,8 @@ from server import Covid
 import json
 import uuid
 
-covidFile = open('/home/rich4life/Documents/UMBC - Courses/2022-2023/Fall - 2022/CMSC 447 - Software Engineering I/Project/server/BaltimoreCityCovidData.json', 'r')
-crimeFile = open('/home/rich4life/Documents/UMBC - Courses/2022-2023/Fall - 2022/CMSC 447 - Software Engineering I/Project/server/BaltimoreCityCrimeData.json', 'r')
+covidFile = open('./BaltimoreCityCovidData.json', 'r')
+crimeFile = open('./BaltimoreCityCrimeData.json', 'r')
 db.create_all()
 
 crimeData = json.load(crimeFile)
