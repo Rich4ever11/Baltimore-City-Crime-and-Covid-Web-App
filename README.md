@@ -8,13 +8,15 @@ Once that is finished you must first install all the node module packages. To do
     npm install (installs all the node module packages
   
 Once that is done you must run both the client and server at the same time.
-To run the server you must ensure you are in (ven) mode. And then you must have access to the database and the backend services.
+To run the server you must ensure you are in (ven) mode. Download python virtual enviroment on your machine first
+(create this in the server folder) And then you must make sure you have access to the database and the backend services.
 
     3.)
+    python3 -m venv env (make sure you have the virtual enviroment installed on your machine)
     source ven/bin/activate (places you in ven mode)
 
     4.)
-    python3 server.py
+    python3 server.py (activates the flask service)
   
 Once the server is running then you just need to run the client.
 This will open a react webservice, allowing you to interact with the website
