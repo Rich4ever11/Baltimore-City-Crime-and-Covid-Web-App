@@ -2,7 +2,7 @@
 
     1.) Download all the files and data in this repository
 To run this program you will need to have downloaded all the appropriate files and data in this repository. 
-Once that is finished you must first install all the node module packages. To do this you would need to run
+Once that is finished you must first install all the node module packages. To do this you would need to run inside the CLIENT folder
   
     2.)
     npm install (installs all the node module packages
