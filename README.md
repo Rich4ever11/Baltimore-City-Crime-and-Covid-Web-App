@@ -43,3 +43,5 @@ This will open a react webservice, allowing you to interact with the website
     7.) RUN REACT WEBSITE
     npm run start (starts the front end)
   
+Here is a link to how the program should look and work
+https://drive.google.com/file/d/1YVrW3Ka5hssv7LOW6V4QM_XrmaAY0FL-/view?usp=sharing (WINDOWS RECORDING)
