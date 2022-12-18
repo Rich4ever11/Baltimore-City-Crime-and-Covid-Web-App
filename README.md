@@ -26,6 +26,7 @@ To run the server you must ensure you are in (ven) mode. Download python virtual
         pip install flask_sqlalchemy
         
     4.) CREATE THE DATABASE
+    *you may have to change the path to the two json files in this program*
     python3 create_database.py (creates the .db file, creating a database for our data on covid and crime in baltimore city to live)
 
     5.) BEGIN RUNNING THE SERVER.PY
