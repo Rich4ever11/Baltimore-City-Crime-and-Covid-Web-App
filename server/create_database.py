@@ -4,8 +4,9 @@ from server import Covid
 import json
 import uuid
 
-covidFile = open('BaltimoreCityCovidData.json', 'r')
-crimeFile = open('BaltimoreCityCrimeData.json', 'r')
+#if the path of these files do not work copy the full or relative path to these files on your computer
+covidFile = open('server/BaltimoreCityCovidData.json', 'r')
+crimeFile = open('server/BaltimoreCityCrimeData.json', 'r')
 db.create_all()
 
 crimeData = json.load(crimeFile)
