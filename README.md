@@ -45,3 +45,4 @@ This will open a react webservice, allowing you to interact with the website
   
 Here is a link to how the program should look and work
 https://drive.google.com/file/d/1YVrW3Ka5hssv7LOW6V4QM_XrmaAY0FL-/view?usp=sharing (WINDOWS RECORDING)
+https://drive.google.com/file/d/1yjVDoeANx9PRPTEBs6nNRvvEcFjKBSZW/view?usp=sharing (LINUX RECORDING)
