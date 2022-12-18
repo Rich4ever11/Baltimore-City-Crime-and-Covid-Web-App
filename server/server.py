@@ -26,7 +26,7 @@ class Crime(db.Model):
     Longitude = db.Column(db.Integer, nullable=True)
 
     def __repr__(self):
-        return self.studentID
+        return '<Crime %r>' % self.crimeID
 
 class Covid(db.Model):
     covidID = db.Column(db.String(200), primary_key=True)
@@ -34,7 +34,7 @@ class Covid(db.Model):
     covidCount = db.Column(db.String(200), nullable=False)
 
     def __repr__(self):
-        return '<Teacher %r>' % self.instructorName
+        return '<Covid %r>' % self.covidID
 
 def getDictionaryObject(dbObjectStructure, listName, objectIDName):
     responseObject = {listName: []}
