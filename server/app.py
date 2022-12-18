@@ -4,8 +4,8 @@ from server import Covid
 import json
 import uuid
 
-covidFile = open('./BaltimoreCityCovidData.json', 'r')
-crimeFile = open('./BaltimoreCityCrimeData.json', 'r')
+covidFile = open('BaltimoreCityCovidData.json', 'r')
+crimeFile = open('BaltimoreCityCrimeData.json', 'r')
 db.create_all()
 
 crimeData = json.load(crimeFile)
@@ -49,7 +49,7 @@ for section in crimeData["features"]:
     except:
         db.session.rollback()
 
-for section in covidData:
+for section in covidData["covidList"]:
     newCovidID = section["OBJECTID"]
     newCovidDate = section["DATE"]
     newCovidCount = section["Baltimore_City"]
