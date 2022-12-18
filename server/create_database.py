@@ -4,6 +4,7 @@ from server import Covid
 import json
 import uuid
 
+#with newer versions of flask_sqlalchemy this program may not work. If it doesnt please use create_database1.py
 #if the path of these files do not work copy the full or relative path to these files on your computer
 covidFile = open('server/BaltimoreCityCovidData.json', 'r')
 crimeFile = open('server/BaltimoreCityCrimeData.json', 'r')
